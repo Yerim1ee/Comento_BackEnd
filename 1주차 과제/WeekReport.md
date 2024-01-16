@@ -1,3 +1,34 @@
+
+## 업무 진행 현황
+[1]
+- jdk 1.8 버전 설치 및 환경 변수 설정(완료)
+
+[2]
+- Eclipse 설치(완료)
+- Spring 설치(이슈 1)
+
+[3]
+- 톰캣 설정(완료)
+
+[4]
+- 스프링 프로젝트 생성, Spring 버전 수정, maven-compiler 수정(이슈 2)
+- 서버 셋팅(완료)
+
+[5]
+- mariadb 설치(완료)
+- mysql workbench 설치(이슈 3)
+- 스키마 생성, 테이블 생성, 데이터 넣기 및 조회(완료)
+
+[6]
+- POM.xml 수정(완료)
+- root-context.xml 수정(문제 1)
+- MyBatis 연동(완료)
+- 데이터 조회/처리를 위한 JAVA 코드 작성(완료)
+- 중간 Quiz(진행)
+- 화면 확인(문제 2)
+
+-----
+
 ## 이슈 1 [Spring 설치]
 ### 📌 질문
 
@@ -51,31 +82,26 @@ mysql workbench에 MariaDB를 연결하려고 하니 자동 연결도 되지 않
 ![image](https://github.com/Yerim1ee/Comento_BackEnd/assets/138195206/6876534e-f392-4fe1-b6a0-57fe08ee6d08)
 
 -----
+## 문제 1 [root-context.xml 수정]
+### 📌 질문
+처음에 해당 문제를 접하고 인터넷 서치 후 해당 문제가 package가 없어서일 수 있다는 해결법이 있어 패키지를 만들고 다시 빌드를 했는데도 문제 해결이 되지 않았습니다. 어떤 부분을 잘못해서 문제가 난 것인지 확인하면 좋을 부분이 있다면 알려주시면 감사할 것 같습니다..!
 
-## 업무 진행 현황
-[1]
-- jdk 1.8 버전 설치 및 환경 변수 설정(완료)
+**[root-context.xml 에러 화면]**
+![image](https://github.com/Yerim1ee/Comento_BackEnd/assets/138195206/a9553412-c168-4459-90ad-88feea3d85d2)
 
-[2]
-- Eclipse 설치(완료)
-- Spring 설치(이슈 1)
+```
+// 에러 메세지
+Description	Resource	Path	Location	Type
+Error occured processing XML 'The prefix "context" for element "context:component-scan" is not bound.'. See Error Log for more details	root-context.xml	/settingweb/src/main/webapp/WEB-INF/spring	Unknown	Spring Beans Problem
+```
+-----
+## 문제 2 [화면 확인]
+### 📌 질문
+[4] Hello World 때는 화면이 잘 나왔었는데 6번까지 세팅을 하고 나니, 서버를 실행시키고 화면을 연결하면 제대로 화면이 켜지지 않아 movieVO를 제대로 작성한 것인지, 프로그램이 잘 돌아가는지에 대해 확인하기가 어려웠습니다.
+1) web.xml에서 DispatcherServlet 선언이 제대로 되어있는지 확인
+2) servlet-context.xml에서 설정 확인
+3) url mapping이 잘 되어있는지 컨트롤러에서 확인
+등 여러가지 인터넷에서 제공하는 해결법을 제가 정확히 이해름 못해서인지 제대로 해결이 되지 않았습니다. 혹시 더 확인하고 해보면 좋을 부분이 있다면 알려주시면 감사할 것 같습니다..!
 
-[3]
-- 톰캣 설정(완료)
-
-[4]
-- 스프링 프로젝트 생성, Spring 버전 수정, maven-compiler 수정(이슈 2)
-- 서버 셋팅(완료)
-
-[5]
-- mariadb 설치(완료)
-- mysql workbench 설치(이슈 3)
-- 스키마 생성, 테이블 생성, 데이터 넣기 및 조회(완료)
-
-[6]
-- POM.xml 수정(완료)
-- root-context.xml 수정(문제 1)
-- MyBatis 연동(완료)
-- 데이터 조회/처리를 위한 JAVA 코드 작성(완료)
-- 중간 Quiz(진행)
-- 화면 확인(문제 2)
+**[화면 확인 에러 화면]**
+![image](https://github.com/Yerim1ee/Comento_BackEnd/assets/138195206/b4805fe9-aec4-46f6-a21c-8b4959194998)
