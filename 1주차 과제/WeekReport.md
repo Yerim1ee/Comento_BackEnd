@@ -44,9 +44,10 @@ Cannot complete the install because one or more required items could not be foun
 mysql workbench에 MariaDB를 연결하려고 하니 자동 연결도 되지 않았고, 아래 그림과 같은 에러가 나와서 서치 후에 다운 그레이드 하거나 HeidiSQL을 사용하라는 것을 확인했습니다. HeidiSQL로 대체하여 사용하고 있는 중인데 이렇게 해도 괜찮을 지 여쭤보고 싶습니다.
 
 **[mysql workbench 에러 화면]**
+
 ![image](https://github.com/Yerim1ee/Comento_BackEnd/assets/138195206/76cfadf5-5134-4f97-9b48-3907bf2ac061)
 
-**[HeidiSQL 사용 및 테이블 완성 화면]**
+**[HeidiSQL 사용  화면]**
 ![image](https://github.com/Yerim1ee/Comento_BackEnd/assets/138195206/6876534e-f392-4fe1-b6a0-57fe08ee6d08)
 
 -----
