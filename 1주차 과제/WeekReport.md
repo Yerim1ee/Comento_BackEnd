@@ -8,7 +8,7 @@
   ![화면 캡처 2024-01-17 001720](https://github.com/Yerim1ee/Comento_BackEnd/assets/138195206/cc5d06f6-225f-48d4-8763-5a5fc56fa406)
 
 
-**2. **다운로드를 시도하였지만 아래와 같은 에러 메세지가 나와 구글링 후, help -> install new software -> Add(https://download.eclipse.org/mylyn/releases/latest/)로 진행하였지만 똑같이 에러가 나왔습니다. 그 외로 eclipse 버전 변경, 다시 설치 등을 해도 같은 에러가 나와서 다른 방법을 서치하였습니다.
+**2.** 다운로드를 시도하였지만 아래와 같은 에러 메세지가 나와 구글링 후, help -> install new software -> Add(https://download.eclipse.org/mylyn/releases/latest/)로 진행하였지만 똑같이 에러가 나왔습니다. 그 외로 eclipse 버전 변경, 다시 설치 등을 해도 같은 에러가 나와서 다른 방법을 서치하였습니다.
 ```
 // 에러 메세지
 Cannot complete the install because one or more required items could not be found.
