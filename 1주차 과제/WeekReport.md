@@ -23,14 +23,14 @@ Cannot complete the install because one or more required items could not be foun
 
 
 -----
-## 이슈 2 [Spring 설치]
+## 이슈 2 [Spring 버전 수정]
 📌 질문
-다른 것은 그대로 가되, 아래 그림의 springframework-version은 mavenrepository.com에서 버전을 확인한 뒤, 수정하라고 해주셔서 확인 후, 6.1.3 을 적용하고자 했습니다. 하지만 에러가 났습니다. 해당 부분을 제공해주신 버전으로 낮추니 에러가 나지 않았습니다. 왜 낮추니 에러가 사라진 것인지 궁금합니다.
+다른 것은 그대로 가되, 아래 그림의 springframework-version은 mavenrepository.com에서 버전을 확인한 뒤, 수정하라고 해주신 것으로 이해를 했습니다. 해당 사이트에서 확인 후, 6.1.3 을 적용하고자 했습니다. 하지만 에러가 났습니다. 해당 부분을 제공해주신 버전으로 낮추니 에러가 나지 않았습니다. 왜 낮추니 에러가 사라진 것인지 궁금합니다.
 
 [버전 변경해야 하는 부분]
 ![image](https://github.com/Yerim1ee/Comento_BackEnd/assets/138195206/fee398de-e3ed-44f6-9372-23d698859e6e)
 
-[참고한 버전]
+[참고한 버전(6.1.3)]
 ![image](https://github.com/Yerim1ee/Comento_BackEnd/assets/138195206/cec72e3e-bd8a-48cc-8cdb-bb2eb2873668)
 
 
