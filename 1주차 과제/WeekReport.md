@@ -1,4 +1,4 @@
-![image](https://github.com/Yerim1ee/Comento_BackEnd/assets/138195206/4f85290e-bd9c-41e7-b1e1-afecb344f830)## 이슈 1 [Spring 설치]
+## 이슈 1 [Spring 설치]
 📌 질문
 에러를 해결하는 과정을 담았습니다. 노션에 주신대로 eclipse 위에다 설치를 한 것은 아니라고 생각이 됩니다.(eclipse를 클릭하여 여는 것이 아니라 STS를 클릭하여 열어야 해당 환경이 세팅이 되는 것을 통해 그렇게 생각했습니다.) 이렇게 하여도 괜찮을지 여쭤보고 싶습니다.
 
