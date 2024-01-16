@@ -39,8 +39,19 @@ Cannot complete the install because one or more required items could not be foun
 ![image](https://github.com/Yerim1ee/Comento_BackEnd/assets/138195206/d93d288c-e787-4d32-b743-481fe6e2e605)
 
 -----
+## 이슈 3 [mysql workbench 설치]
+### 📌 질문
+mysql workbench에 MariaDB를 연결하려고 하니 자동 연결도 되지 않았고, 아래 그림과 같은 에러가 나와서 서치 후에 다운 그레이드 하거나 HeidiSQL을 사용하라는 것을 확인했습니다. HeidiSQL로 대체하여 사용하고 있는 중인데 이렇게 해도 괜찮을 지 여쭤보고 싶습니다.
 
-## 개발환경 셋팅
+**[mysql workbench 에러 화면]**
+![image](https://github.com/Yerim1ee/Comento_BackEnd/assets/138195206/76cfadf5-5134-4f97-9b48-3907bf2ac061)
+
+**[HeidiSQL 사용 및 테이블 완성 화면]**
+![image](https://github.com/Yerim1ee/Comento_BackEnd/assets/138195206/6876534e-f392-4fe1-b6a0-57fe08ee6d08)
+
+-----
+
+## 업무 진행 현황
 [1]
 - jdk 1.8 버전 설치 및 환경 변수 설정(완료)
 
