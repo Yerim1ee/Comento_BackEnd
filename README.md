@@ -1,3 +1,3 @@
 # Comento_BackEnd
 
-- 주차별 폴더 WorkReport.md로 이슈 및 진행 상황 작성해두었습니다
+- 주차별 폴더 WeekReport.md로 이슈 및 진행 상황 작성해두었습니다
