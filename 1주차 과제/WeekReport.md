@@ -101,6 +101,7 @@ Error occured processing XML 'The prefix "context" for element "context:componen
 1) web.xml에서 DispatcherServlet 선언이 제대로 되어있는지 확인
 2) servlet-context.xml에서 설정 확인
 3) url mapping이 잘 되어있는지 컨트롤러에서 확인
+
 등 여러가지 인터넷에서 제공하는 해결법을 제가 정확히 이해름 못해서인지 제대로 해결이 되지 않았습니다. 혹시 더 확인하고 해보면 좋을 부분이 있다면 알려주시면 감사할 것 같습니다..!
 
 **[화면 확인 에러 화면]**
