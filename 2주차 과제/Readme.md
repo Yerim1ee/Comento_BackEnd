@@ -4,7 +4,7 @@
 - [x] Rest API가 무엇인지 정리(각 항목에 대해 작성은 하였으나 다음 주차까지 추가 보완할 예정입니다.)
 - [ ] 1주차 과제 보완 (진행 중)
 
-[Rest API 정리 글](https://start-1.tistory.com/53)
+[REST API 정리 글](https://start-1.tistory.com/53)
 
 -----
 
