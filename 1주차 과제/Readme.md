@@ -1,4 +1,13 @@
 
+## 개발환경
+>Java: Oracle JDK 8 (version "1.8.0_221")
+>Eclipse IDE: 2023-12 (4.30.0)
+>STS: sts-3.9.18.RELEASE
+>Tomcat: 9.0.85
+>MariaDB: 10.2.14
+>MySQL Workbench: 8.0.36
+>HeidiSQL: 2023.11.05 (12.6)
+
 ## 업무 진행 현황
 [1]
 - jdk 1.8 버전 설치 및 환경 변수 설정(완료)
