@@ -62,7 +62,9 @@ cvc-elt.1.a: Cannot find the declaration of element 'project'.   pom.xml   /sett
 ```
 
 ## 질문 2
-📌 jstl을 추가하려고 dependency 설정을 추가해주었는데 밑의 에러가 났습니다. 해결방법을 찾아봐도 이해가 안되어서 gradle로 변경하여 진행을 했었는데 혹시 참고하면 좋을만한 부분이 있다면 말씀해 주신다면 감사할 것 같습니다..!
+📌 jstl을 추가하려고 dependency 설정을 추가해주었는데 밑의 에러가 났습니다. 
+
+해결방법을 찾아봐도 이해가 안되어서 gradle로 변경하여 진행을 했었는데 혹시 참고하면 좋을만한 부분이 있다면 말씀해 주신다면 감사할 것 같습니다..!
 ```
 Description Resource Path Location Type 'dependencies.dependency.version' for javax.servlet:jstl:jar is missing. pom.xml /settingweb_boot line 25 Language Servers
 ```
@@ -72,7 +74,8 @@ Description Resource Path Location Type 'dependencies.dependency.version' for ja
 2) requestcode 테이블의 requestCode 필드는 접속을 할 때 이 코드에 따라 분류를 한다고 생각하면 되는 것인지 궁금합니다. 이 코드가 어떻게 사용되는 건지 감이 잘 잡히지 않아 여쭤보고 싶습니다.
 
 ## 질문 4
-다양한 에러 관련 해결법들을 읽고 있지만 3-3 과제 중 나오는 에러를 아직 해결하지 못했습니다. 혹시 참고하면 좋을만한 부분이 있다면 말씀해 주신다면 감사할 것 같습니다..!
+📌 다양한 에러 관련 해결법들을 읽고 있지만 아직 3-3 과제 중 나오는 에러를 아직 해결하지 못했습니다. 
+혹시 참고하면 좋을만한 부분이 있다면 말씀해 주신다면 감사할 것 같습니다..!
 
 ```
 org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.devfun.settingweb_boot.dao.StatisticMapper.selectYearLogin
