@@ -51,11 +51,8 @@ from statistc.requestinfo ri
 where substr(ri.createDate, 6) == #{day}
 ```
 #### 3-4-1) 평균 하루 로그인 수
-```
-select ri.requestID as requestID, count(*) as count
-from statistc.requestinfo ri
-where substr(ri.createDate, 6) == #{day}
-```
+진행 중
+
 #### 3-4-1) 휴일을 제외한 로그인 수
 진행 중
 
