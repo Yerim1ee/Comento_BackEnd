@@ -74,7 +74,7 @@ Description Resource Path Location Type 'dependencies.dependency.version' for ja
 2) requestcode 테이블의 requestCode 필드는 접속을 할 때 이 코드에 따라 분류를 한다고 생각하면 되는 것인지 궁금합니다. 이 코드가 어떻게 사용되는 건지 감이 잘 잡히지 않아 여쭤보고 싶습니다.
 
 ## 질문 4
-📌 다양한 에러 관련 해결법들을 읽고 있지만 아직 3-3 과제 중 나오는 에러를 아직 해결하지 못했습니다. 
+📌 다양한 에러 관련 해결법들을 읽고 있지만 아직 [과제 3-3](https://github.com/Yerim1ee/Comento_BackEnd/blob/main/3%EC%A3%BC%EC%B0%A8%20%EA%B3%BC%EC%A0%9C/readme.md#3-3-20%EB%85%84%EB%8F%84-%EB%A1%9C%EA%B7%B8%EC%9D%B8%EC%88%98-api-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-mybatis-mariadb-%EC%97%B0%EB%8F%99) 진행 중 나오는 에러를 아직 해결하지 못했습니다. 
 혹시 참고하면 좋을만한 부분이 있다면 말씀해 주신다면 감사할 것 같습니다..!
 
 ```
