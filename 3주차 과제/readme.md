@@ -34,17 +34,33 @@
 org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.devfun.settingweb_boot.dao.StatisticMapper.selectYearLogin
 ```
 
+
 ### 3-4) API 구축을 위한 SQL 작성
 #### 3-4-1) 월별 접속자 수
-
+한 개를 받는 sql문으로 만들고, for 문으로 start - end 까지 돌릴 예정입니다. 
+for 문을 사용하고 싶지 않았는데 varchar인 createDate를 월 별로 Groupby을 어떻게 해야하는지를 아직 잘 모르겠어서 우선 대안으로 이 방법을 생각했습니다.
+```
+select substr(ri.createDate, 4) as month, count(*) as count
+from statistc.requestinfo ri
+where substr(ri.createDate, 4) == #{month}
+```
 #### 3-4-2) 일자별 접속자 수
-
+```
+select substr(ri.createDate, 6) as day, count(*) as count
+from statistc.requestinfo ri
+where substr(ri.createDate, 6) == #{day}
+```
 #### 3-4-1) 평균 하루 로그인 수
-
+```
+select ri.requestID as requestID, count(*) as count
+from statistc.requestinfo ri
+where substr(ri.createDate, 6) == #{day}
+```
 #### 3-4-1) 휴일을 제외한 로그인 수
+진행 중
 
 #### 3-4-1) 부서별 월별 로그인 수
-
+진행 중
 
 ## 질문 1
 📌 pom.xml 설정에서 밑의 에러가 났었는데, http로 바꾸었더니 에러가 해결되었는데 어떤 차이로 에러가 해결된 것인지 궁금합니다.
@@ -70,8 +86,7 @@ Description Resource Path Location Type 'dependencies.dependency.version' for ja
 ```
 ## 질문 3
 📌 테이블의 필드 질문
-1) user 테이블의 HR_ORGAN 필드가 무엇을 의미하는 지 궁금합니다.
-2) requestcode 테이블의 requestCode 필드는 접속을 할 때 이 코드에 따라 분류를 한다고 생각하면 되는 것인지 궁금합니다. 이 코드가 어떻게 사용되는 건지 감이 잘 잡히지 않아 여쭤보고 싶습니다.
+1) requestcode 테이블의 requestCode 필드는 접속을 할 때 이 코드에 따라 로그인 시도인지, 접속 시도인지 분류를 하고 있는 것인지 궁금합니다. 만약 맞다면, 각 코드의 값을 제가 설정하면 되는 것인지 궁금합니다.
 
 ## 질문 4
 📌 다양한 에러 관련 해결법들을 읽고 있지만 아직 [과제 3-3](https://github.com/Yerim1ee/Comento_BackEnd/blob/main/3%EC%A3%BC%EC%B0%A8%20%EA%B3%BC%EC%A0%9C/readme.md#3-3-20%EB%85%84%EB%8F%84-%EB%A1%9C%EA%B7%B8%EC%9D%B8%EC%88%98-api-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-mybatis-mariadb-%EC%97%B0%EB%8F%99) 진행 중 나오는 에러를 아직 해결하지 못했습니다. 
