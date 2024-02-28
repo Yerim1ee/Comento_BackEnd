@@ -11,7 +11,6 @@
 >HeidiSQL: 2023.11.05 (12.6)
 
 
-** Eclipse에서 오류가 많이나서 우선 Intelij에서 실행하였습니다. 추후 다시 Eclipse로 진행해보겠습니다.
 
 
 ## 업무 진행 현황
@@ -50,14 +49,7 @@ select substr(ri.createDate, 6) as day, count(*) as count
 from statistc.requestinfo ri
 where substr(ri.createDate, 6) == #{day}
 ```
-#### 3-4-1) 평균 하루 로그인 수
-진행 중
 
-#### 3-4-1) 휴일을 제외한 로그인 수
-진행 중
-
-#### 3-4-1) 부서별 월별 로그인 수
-진행 중
 
 ## 질문 1
 📌 pom.xml 설정에서 밑의 에러가 났었는데, http로 바꾸었더니 에러가 해결되었는데 어떤 차이로 에러가 해결된 것인지 궁금합니다.
