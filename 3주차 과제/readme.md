@@ -17,22 +17,12 @@
 ### 3-1) 스프링부트로 개발 환경 설정하기
 ![image](https://github.com/Yerim1ee/Comento_BackEnd/assets/138195206/872869fe-b771-422a-b0c6-741d5ab36ff4)
 
-** Spring initialzer 을 통해 다운로드 하다 Maven이 아닌 gradle을 사용하게 되었습니다. 다음 과제에서 다시 변경해서 설정할 수 있도록 하겠습니다.
 
 ### 3-2)통계(SW활용현황) API를 위한 DB, Table 생성
 ![image](https://github.com/Yerim1ee/Comento_BackEnd/assets/138195206/46f6c0cd-82a8-4e15-be02-0707725f8201)
 
-** csv로 데이터 파일 만들어 추가적으로 넣을 예정입니다.
-
 ### 3-3) [20년도 로그인수 API] 스프링부트, Mybatis, mariadb 연동
 ![image](https://github.com/Yerim1ee/Comento_BackEnd/assets/138195206/1875ab5c-3c9e-4904-b4d7-126582adb418)
-
-
-에러 발생하여 해결 중에 있습니다.
-```
-org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.devfun.settingweb_boot.dao.StatisticMapper.selectYearLogin
-```
-
 
 ### 3-4) API 구축을 위한 SQL 작성
 #### 3-4-1) 월별 접속자 수
